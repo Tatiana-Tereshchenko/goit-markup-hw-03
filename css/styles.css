@@ -1,0 +1,343 @@
+:root {
+--primery-text-color: #434455;
+--title-text-color: #2E2F42;
+--background-color-hero: #2E2F42;
+--accent-color: #4D5AE5;
+--background-color: #ffffff;
+--button-color: #ffffff;
+--footer-logo: #F4F4FD;
+--background-color-cection: #F4F4FD;
+--background-color-footer: #2E2F42;
+--color-hover-nav: #434455;
+}
+h1,
+h2,
+h3, 
+p {
+margin-top: 0;
+margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+button {
+    cursor: pointer;
+}
+body {
+    color:var(--primery-text-color);
+    background-color:var(--background-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+/* heder */
+.logo-blu {
+    color:var(--accent-color);
+}
+.logo {
+    color:var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none; 
+}
+.heder-link {
+    color:var(--title-text-color);
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.contacts {
+    line-height: 1.5;
+    list-style: none;
+}
+.heder-contacts {
+    color: var(--primery-text-color);
+    text-decoration: none;
+    margin-right: 40px;
+}
+.heder-link:hover {
+    color: var(--accent-color);
+}
+.heder-link:focus {
+    color: var(--accent-color);
+}
+.heder-contacts:hover {
+    color: var(--accent-color);
+}
+.heder-contacts:focus {
+    color: var(--accent-color);
+}
+.page-header-conteiner {
+    display: flex;
+    align-items: center;
+}
+.page-nav {
+    display: flex;
+}
+.page-heder-link {
+    display: flex;
+}
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+.logo {
+    margin-right: 77px;
+}
+.nav-header:not(:last-child) {
+    margin-right: 40px;
+}
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.16);
+}
+/* HERO */
+.hero {
+background-color: var(--background-color-hero);
+text-align: center;
+padding-top: 192px;
+padding-bottom: 192px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px; 
+}
+.hero-title {
+color: #ffffff;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+/* padding-top: 192px;
+padding-left: 318px;
+padding-right: 318px;
+padding-bottom: 48px; */
+margin-left: auto;
+margin-right: auto;
+width: 492px;
+}
+
+.hero-button {
+color: var(--button-color);
+background-color:var(--accent-color); 
+font-family: Roboto, sans-serif;
+font-weight: 700;
+line-height: 1.19;
+cursor: pointer;
+font-size: 16px;
+border-radius: 4px;
+width: 170px;
+text-align: center;
+margin-top: 48px;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-right: 32px;
+padding-left: 32px;
+}
+.hero-button:hover {
+    background-color: var(--accent-color);
+}
+.hero-button:focus {
+    background-color: #404BBF;
+}
+/* SECTION */
+.section-tile {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+margin-bottom: 72px;
+}
+.title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.section-text {
+line-height: 1.5;
+}
+.decor {
+list-style: none;
+}
+.benefits {
+    display: flex;
+    gap: 24px;
+}
+.team {
+    background-color: var(--background-color-cection);
+}
+.team-item {
+    background-color: var(--background-color)
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.item {
+    padding-top: 0px;
+}
+.wedoing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.doing {
+    padding-top: 0px;
+}
+
+/* FOOTER */
+.footer-logo {
+color: var(--footer-logo);
+font-family: Raleway;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+text-transform: uppercase;
+text-decoration: none;
+
+margin-left: auto;
+}
+.footer-logo-blu {
+color: var(--accent-color);
+font-family: Raleway;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+}
+.footer-text {
+line-height: 1.5;
+color: #E7E9FC;
+width: 264px;
+padding-top: 16px;
+padding-bottom: 100px;
+}
+.footer {
+    padding-top: 100px;
+}
+/*  PAGE2------------portfolio */
+.filter-portfolio {
+    color: var(--accent-color);
+    background-color: #E7E9FC;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    vertical-align: baseline;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    max-width: 126px;
+    border: 1px #E7E9FC;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.filter-portfolio:hover {
+    background-color: var(--accent-color);
+    color: var(--button-color);
+}
+.filter-portfolio:focus {
+    background-color: var(--accent-color);
+    color: var(--button-color);
+}
+.portfolio-title {
+    color: var(--title-text-color);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 8px;
+}
+.section-footer {
+    background-color: var(--background-color-footer);
+}
+.portfolio-section {
+    text-decoration: none;
+}
+.conteiner {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
+
+.page-decor {
+display: flex;
+flex-wrap: wrap;
+margin-left: -24px;
+margin-top: -48px;
+
+}
+.decor-portfolio {
+    flex-basis: calc(100% / 3 - 24px);
+    margin-top: 48px;
+    margin-left: 24px;
+}
+
+.page-section {
+    padding-top: 0px;
+}
+
+.team-page {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.section-text {
+    margin-top: 8px;
+}
+.portfolio {
+    border-left: 0.5px solid;
+    border-bottom: 0.5px solid;
+    border-right: 0.5px solid;
+    border-color: #F4F4FD;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
