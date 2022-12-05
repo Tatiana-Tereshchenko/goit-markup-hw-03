@@ -64,7 +64,6 @@ ul {
 .heder-contacts {
     color: var(--primery-text-color);
     text-decoration: none;
-    margin-right: 40px;
 }
 .heder-link:hover {
     color: var(--accent-color);
@@ -94,14 +93,27 @@ ul {
 }
 .logo {
     margin-right: 77px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-header {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.16);
+}
+.nav-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .nav-header:not(:last-child) {
     margin-right: 40px;
 }
-.page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.16);
+
+
+.heder-contacts {
+    margin-right: 40px;
+}
+.list-contacts {
+    margin-right: 0px;
 }
 /* HERO */
 .hero {
@@ -129,10 +141,6 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
-/* padding-top: 192px;
-padding-left: 318px;
-padding-right: 318px;
-padding-bottom: 48px; */
 margin-left: auto;
 margin-right: auto;
 width: 492px;
@@ -154,6 +162,7 @@ padding-top: 16px;
 padding-bottom: 16px;
 padding-right: 32px;
 padding-left: 32px;
+border: solid #4D5AE5;
 }
 .hero-button:hover {
     background-color: var(--accent-color);
@@ -225,7 +234,6 @@ font-size: 18px;
 line-height: 1.16;
 text-transform: uppercase;
 text-decoration: none;
-
 margin-left: auto;
 }
 .footer-logo-blu {
@@ -239,11 +247,14 @@ line-height: 1.17;
 line-height: 1.5;
 color: #E7E9FC;
 width: 264px;
-padding-top: 16px;
-padding-bottom: 100px;
+margin-top: 40px;
 }
-.footer {
+.section-footer {
     padding-top: 100px;
+    padding-bottom: 100px;
+}
+.page-section {
+    padding-top: 96px;
 }
 /*  PAGE2------------portfolio */
 .filter-portfolio {
@@ -258,6 +269,7 @@ padding-bottom: 100px;
     font-weight: 700;
     max-width: 126px;
     border: 1px #E7E9FC;
+    border-radius: 4px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 24px;
@@ -301,8 +313,7 @@ padding-bottom: 100px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 
@@ -319,9 +330,7 @@ margin-top: -48px;
     margin-left: 24px;
 }
 
-.page-section {
-    padding-top: 0px;
-}
+
 
 .team-page {
     text-align: center;
